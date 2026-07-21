@@ -31,11 +31,17 @@ Serial Monitor
 The code currently uses:
 
 TRIG → Pin 9
+
 ECHO → Pin 10
+
 LCD I2C address → 0x27
+
 LCD → 16×2
+
 Occupied condition: distance ≤ 10 cm
+
 Empty condition: distance > 10 cm
+
 
 The report also discusses future expansion into multiple parking slots, mobile applications, cloud/IoT monitoring, online booking, digital payments, automatic gates, RFID, cameras, and AI-based parking prediction, but the actual implemented prototype described in the report is primarily the Arduino + ultrasonic sensor + LCD system.
 
